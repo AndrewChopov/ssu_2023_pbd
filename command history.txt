@@ -1,0 +1,13 @@
+: 1679680485:0;mc
+: 1679680495:0;vim f1.txt
+: 1679680519:0;vim f2.txt
+: 1679680594:0;ls -la
+: 1679680597:0;cat f1.txt
+: 1679680601:0;cat f2.txt
+: 1679680635:0;zip -9 test.zip f1.txt f2.txt
+: 1679680638:0;ls -la
+: 1679680656:0;mkdir uz
+: 1679680671:0;unzip test.zip
+: 1679680687:0;vim .bash_history
+: 1679680708:0;vim .zshrc
+: 1679680713:0;vim .zsh_history
