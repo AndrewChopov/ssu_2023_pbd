@@ -1,0 +1,65 @@
+C:\Users\User\anaconda3\python.exe //wsl$/Ubuntu/home/labs/lab4/lab.py
+
+==================
+1. Check version
+==================
+3.8.3 (default, Jul  2 2020, 17:30:36) [MSC v.1916 64 bit (AMD64)]
+
+===============
+2. Unpack zip
+===============
+Current workdir: \\wsl$\Ubuntu\home\labs\lab4
+3.8.3 (default, Jul  2 2020, 17:30:36) [MSC v.1916 64 bit (AMD64)]
+
+==================
+3. Read csv file
+==================
+data_list: [['Country Name', 'Country Code', 'Year', 'Value'], ['Malta', 'MLT', '1960', '326550'], ['Malta', 'MLT', '1961', '326550'], ['Malta', 'MLT', '1962', '323900'], ['Malta', 'MLT', '1963', '322550']]
+data_list year: Malta
+data_dict: [{'Country Name': 'Malta', 'Country Code': 'MLT', 'Year': '1960', 'Value': '326550'}, {'Country Name': 'Malta', 'Country Code': 'MLT', 'Year': '1961', 'Value': '326550'}, {'Country Name': 'Malta', 'Country Code': 'MLT', 'Year': '1962', 'Value': '323900'}, {'Country Name': 'Malta', 'Country Code': 'MLT', 'Year': '1963', 'Value': '322550'}, {'Country Name': 'Malta', 'Country Code': 'MLT', 'Year': '1964', 'Value': '102832760'}]
+data_dict year: 1961
+
+=================================
+4. Convert csv to json and xlsx
+=================================
+json: [
+ {
+   "Country Name": "Malta",
+   "Country Code": "MLT",
+   "Year": "1960",
+   "Value": "326550"
+ },
+ {
+   "Country Name": "Malta",
+   "Country Code": "MLT",
+   "Year": "1961",
+   "Value": "326550"
+ },
+ {
+   "Country Name": "Malta",
+   "Country Code": "MLT",
+   "Year": "1962",
+   "Value": "323900"
+ },
+ {
+   "Country Name": "Malta",
+   "Country Code": "MLT",
+   "Year": "1963",
+   "Value": "322550"
+ },
+ {
+   "Country Name": "Malta",
+   "Country Code": "MLT",
+   "Year": "1964",
+   "Value": "102832760"
+ }
+]
+json filename: ./data/population-master/data\population.json
+
+=========================
+5. Convert json to xlsx
+=========================
+xls1: ./data/population-master/data\population_lib.xlsx
+xls2: ./data/population-master/data\population_pandas.xlsx
+
+Process finished with exit code 0
